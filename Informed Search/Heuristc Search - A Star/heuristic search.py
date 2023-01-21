@@ -1,12 +1,10 @@
 # Mohammad Javad Maheronnaghsh
-# Student Number: 99105691
+
 
 import heapq
 import time
 import numpy as np
 
-# global ans
-# ans = ""
 
 class State:
     final_indexes = []
@@ -232,33 +230,20 @@ def scan_input():
 
 
 if __name__ == '__main__':
-    # global ans
-    # ans = ""
     heapq.heapify(State.frontier)
     n = int(input())
 
     final_state, start_state = scan_input()
 
     a = time.time()
-    # global string_
-    # string_ = ""
     while True:
         if State.to_add:
             heapq.heapify(State.to_add)
-            # heapq.heappush(State.frontier, State.to_add.pop())
             State.frontier = heapq.merge(State.frontier, State.to_add)
             State.to_add = []
-        # string_ += "*****\n"
-        # string_ += "Number of seen nodes = " + str(len(State.seen)) + "\n"
-        # print("*******")
         # print("Number of seen nodes = " + str(len(State.seen)))
 
-        # min_state = heapq.heappop(State.frontier)
         min_state = heapq.heappop(list(State.frontier))
-        # min_state = State.frontier.pop(0)
-        # string_ += "Frontier size = " + str(len(State.frontier)) + '\n'
-        # string_ += "h of min_state in frontier = " + str(min_state.h) + "\n"
-        # string_ += "g of min state in frontier = " + str(min_state.g) + "\n"
         # print("Frontier size = " + str(len(State.frontier)))
         # print("h of min_state in frontier = " + str(min_state.h))
         # print("g of min state in frontier = " + str(min_state.g))
@@ -270,7 +255,6 @@ if __name__ == '__main__':
 
         if answer == 1:
             print(State.ans, end='')
-            # print(len(State.seen))
             break
 
     print(b - a)
