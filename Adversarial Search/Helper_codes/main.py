@@ -1,3 +1,5 @@
+# Author: Mohammad Javad Maheronnaghsh
+
 import numpy as np
 import random
 import time
