@@ -7,6 +7,7 @@ uninformed search - csp - rl - mdp - bn - hmm - particle filtering - regression 
 
 
 
+
 ## Ideas / Brain Storming
 - Reinforcement learning: growing a child, learning and understanding, and also voice recognition of animals (signal processing)
 - CSP: assigning tasks to TAs regarding their abilities, interests, and the needs
