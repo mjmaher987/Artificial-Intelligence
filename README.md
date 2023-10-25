@@ -6,7 +6,7 @@
 
 ## Adversarial Search
 ### What is it?
-Adversarial search is like a strategy game between two players, where one player tries to make the best moves to win, while the other player tries to stop them. It's used in things like chess or tic-tac-toe, where you plan your moves while thinking about what your opponent might do to counter your plans.
+Adversarial search is like a strategy game between two players, where one player tries to make the best moves to win, while the other player tries to stop them. It's used in things like chess or tic-tac-toe, where we plan your moves while thinking about what our opponent might do to counter our plans.
 ### What did I implement?
 As you can see in the following picture, this is a Game between 2 players (red and blue) to draw the map. There is another rule in the game that we have some walls (drawn in yellow). If a player enters the yellow area, it will draw walls till it enters the yellow area again.
 Note that a player defeats when it doesn't have any choice.
@@ -22,11 +22,13 @@ And compare the results with each other which you can see in the "main.ipynb" fi
 
 ## Local Search
 ### What is it?
-In local search, you begin with a solution and try to make it better by making small changes. It's like trying to find a better route to visit cities one by one in the Traveling Salesman Problem by re-arranging them slightly. You keep doing this until you can't make it any better. It's a way to find a good solution, even if it's not necessarily the best one.
+In local search, we begin with a solution and try to make it better by making small changes. It's like trying to find a better route to visit cities one by one in the Traveling Salesman Problem by re-arranging them slightly. We keep doing this until you can't make it any better. It's a way to find a good solution, even if it's not necessarily the best one.
 
 ### What did I implement?
 As you can see in the picture, we have some cities in beginning and want to travel between them, reaching all cities and get back to the first city again.
+
 ![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/0bc4e5ba-025f-4256-b3b0-40c30321b5af)
+
 I have implemented 3 different algorithms to do that:
 #### Hill Climbing
 ![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/72349f06-8b55-40f9-bd4a-e29f927b66d0)
@@ -40,8 +42,24 @@ I have implemented 3 different algorithms to do that:
 
 ## Informed Search
 ### What is it?
-
+Informed search, like A* with heuristics, is like using a map to find the quickest way to your destination. It considers both how far we've traveled (the cost) and an estimate of how much is left (the heuristic) to guide us towards the best path. This helps us make smarter decisions to reach our goal more efficiently.
 ### What did I implement?
+We have a table like this:
+
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/446f5e7e-bd4c-4e22-ba44-89046fdbe327)
+
+And we want to reach this one (for instance):
+
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/a2dafcc8-7753-4cdf-a418-067a9236299a)
+
+The starting and final tables are given in this format:
+
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/1a219e6b-3c4c-458d-ac82-5780b502fc80)
+
+The allowed actions are moving an arbitrary column upward or downward **OR** moving an arbitrary row to left of right. Note that the cells are circularly shifted.
+
+I used my own heuristic which you can find more on the repository.
+
 
 ## Optimization
 ### What is it?
