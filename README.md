@@ -1,4 +1,5 @@
 # Artificial-Intelligence
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/1b6ddfe3-5207-4bb0-9ecd-960ba3024ba9)
 
 ## General Information
 * Author: Mohammad Javad Maheronnaghsh
