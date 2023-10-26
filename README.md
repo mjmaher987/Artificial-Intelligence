@@ -64,8 +64,26 @@ I used my own heuristic which you can find more on the repository.
 
 ## Optimization
 ### What is it?
+Optimization is the key component used in ML and AI pipelines. We use it to reach the optimum point that our algorithm/model works best. 
+
+Gradient Descent plays a pivotal role in the optimization process. In the followint, I am going to tell more explanations about what I have implemented:
+- Optimization: Optimization is like finding the **best solution** to a problem. It's about making things as good as they can be. For example, imagine we have a limited amount of money and we want to buy the most things with it. We're optimizing our spending to get the most value.
+- Gradient Descent: This is a method used in optimization. Imagine we're trying to find the highest point on a hilly terrain but can't see the whole landscape. So, we **take a step** in the direction that **looks steepest uphill**. We keep doing this until we reach the highest point. This step-by-step process of finding the best point is like gradient descent.
 
 ### What did I implement?
+#### Derivatives of some Functions
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/05ae4c25-6787-45b4-8c78-1e7cf4dbacf2)
+#### Gradient Descent (1D)
+- Learning Rate = 0.1
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/0c2a2712-7767-4a53-8382-cb596a66431a)
+
+- Learning Rate = 0.5
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/39acfd2b-f120-47be-93fa-ae56d4a5c3f2)
+
+- Learning Rate = 0.001
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/82e16d49-9631-42c7-9dd3-4da8eddbabf7)
+#### Gradient Descent (2D)
+![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/823b8e66-c3f3-437c-8ac3-93bff1323541)
 
 ## Reinforcement Learning
 ### What is it?
