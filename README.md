@@ -75,20 +75,51 @@ Gradient Descent plays a pivotal role in the optimization process. In the follow
 ![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/05ae4c25-6787-45b4-8c78-1e7cf4dbacf2)
 #### Gradient Descent (1D)
 - Learning Rate = 0.1
+  
 ![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/0c2a2712-7767-4a53-8382-cb596a66431a)
 
 - Learning Rate = 0.5
+  
 ![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/39acfd2b-f120-47be-93fa-ae56d4a5c3f2)
 
 - Learning Rate = 0.001
+  
 ![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/82e16d49-9631-42c7-9dd3-4da8eddbabf7)
 #### Gradient Descent (2D)
 ![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/823b8e66-c3f3-437c-8ac3-93bff1323541)
 
 ## Reinforcement Learning
 ### What is it?
+Reinforcement learning (RL) is a machine learning approach based on rewarding desired behaviors and punishing undesired ones. In RL, an agent learns by interacting with its environment and receiving positive or negative feedback for its actions.
+
+The agent seeks to maximize cumulative reward through trial and error. Key elements of reinforcement learning include:
+
+- Agent - The learner and decision maker
+- Actions - Possible moves the agent can make
+- Environment - The agent's surrounding context
+- States - The agent's situation at a given time
+- Reward - Feedback for guiding the agent's learning
+Unlike supervised learning which trains on example input-output pairs, RL agents learn from voluntary interaction. And unlike unsupervised learning which finds patterns in data, RL actively maximizes a reward signal.
 
 ### What did I implement?
+We implemented a Q-Learning Algorithm on 2 envoronments:
+#### Frozen Lake (Discrete)
+- Before Training:
+
+![naive](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/4bdc077c-ef62-4661-9cb0-1a41bd1b8a43)
+
+- After Training:
+
+![professional](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/c915f6cc-8735-4d6d-8c4c-ddcec90d6246)
+
+#### Mountain Car (Continual)
+- Before Training:
+
+![mountain-1](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/295d897a-da23-40c7-b93c-ed653b64d516)
+
+- After Training:
+
+![mountain-2](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/ab943d37-8e69-4102-8fd2-4e2a442573b1)
 
 ## MDP (Markov Decision Processes)
 ### What is it?
