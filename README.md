@@ -123,8 +123,21 @@ We implemented a Q-Learning Algorithm on 2 envoronments:
 
 ## MDP (Markov Decision Processes)
 ### What is it?
-
+The Markov decision process (MDP) is a mathematical framework used for modeling decision-making problems where the outcomes are partly random and partly controllable. It’s a framework that can address most reinforcement learning (RL) problems [[source](https://builtin.com/machine-learning/markov-decision-process)].
 ### What did I implement?
+I implemented a **generic** MDP solver, so we can solve every question by passing **transition** and **reward functions**. I used an example to test the implementation.
+
+- Problem Definition
+  
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/1e2307a0-6475-4163-9a35-d4f261274a84" width=500>
+
+- Value Iteration
+
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/56af2258-b926-427d-9970-6a51c7eecdf4" width=350>
+
+- MDP Solving
+
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/53dbbe1d-ce93-480b-bba9-f04d751108c9" width=150>
 
 ## Particle Filtering
 ### What is it?
