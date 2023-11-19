@@ -18,7 +18,8 @@ I have implemented this game in 3 modes:
 - Random Walk vs. Random Walk
 
 And compare the results with each other which you can see in the "main.ipynb" file.
-![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/4764a30e-e26c-454f-a368-fd462c884adf)
+
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/4764a30e-e26c-454f-a368-fd462c884adf" width=400>
 
 
 ## Local Search
@@ -28,15 +29,17 @@ In local search, we begin with a solution and try to make it better by making sm
 ### What did I implement?
 As you can see in the picture, we have some cities in beginning and want to travel between them, reaching all cities and get back to the first city again.
 
-![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/0bc4e5ba-025f-4256-b3b0-40c30321b5af)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/0bc4e5ba-025f-4256-b3b0-40c30321b5af" width=400>
 
 I have implemented 3 different algorithms to do that:
 #### Hill Climbing
-![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/72349f06-8b55-40f9-bd4a-e29f927b66d0)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/72349f06-8b55-40f9-bd4a-e29f927b66d0" width=400>
+  
 #### Simulated Annealing
-![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/b56a8514-2bd7-4331-b5cb-511e3d754741)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/b56a8514-2bd7-4331-b5cb-511e3d754741" width=400>
+  
 #### Genetic Algorithm
-![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/d0f84c24-a9ed-4084-93a0-2b5e9e8f54a8)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/d0f84c24-a9ed-4084-93a0-2b5e9e8f54a8" width=400>
 
 
 
@@ -47,11 +50,11 @@ Informed search, like A* with heuristics, is like using a map to find the quicke
 ### What did I implement?
 We have a table like this:
 
-![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/446f5e7e-bd4c-4e22-ba44-89046fdbe327)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/446f5e7e-bd4c-4e22-ba44-89046fdbe327" width=250>
 
 And we want to reach this one (for instance):
 
-![image](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/a2dafcc8-7753-4cdf-a418-067a9236299a)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/a2dafcc8-7753-4cdf-a418-067a9236299a" width=250>
 
 The starting and final tables are given in this format:
 
@@ -115,11 +118,11 @@ We implemented a Q-Learning Algorithm on 2 envoronments:
 #### Mountain Car (Continual)
 - Before Training:
 
-![mountain-1](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/295d897a-da23-40c7-b93c-ed653b64d516)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/295d897a-da23-40c7-b93c-ed653b64d516" width=300>
 
 - After Training:
 
-![mountain-2](https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/ab943d37-8e69-4102-8fd2-4e2a442573b1)
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/ab943d37-8e69-4102-8fd2-4e2a442573b1" width=300>
 
 ## MDP (Markov Decision Processes)
 ### What is it?
@@ -128,12 +131,12 @@ The Markov decision process (MDP) is a mathematical framework used for modeling 
 I implemented a **generic** MDP solver, so we can solve every question by passing **transition** and **reward functions**. I used an example to test the implementation.
 
 - Problem Definition
-  
-<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/1e2307a0-6475-4163-9a35-d4f261274a84" width=500>
+
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/1e2307a0-6475-4163-9a35-d4f261274a84" width=350>
 
 - Value Iteration
 
-<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/56af2258-b926-427d-9970-6a51c7eecdf4" width=350>
+<image src="https://github.com/mjmaher987/Artificial-Intelligence/assets/77095635/56af2258-b926-427d-9970-6a51c7eecdf4" width=300>
 
 - MDP Solving
 
